@@ -2,8 +2,24 @@ apiVersion: v1
 entries:
   kube-janitor:
   - apiVersion: v1
+    appVersion: v0.1.0
+    created: 2018-09-24T09:38:04.225985824-05:00
+    description: A Helm chart for running kube-janitor
+    digest: 5e6d1ee6079bb2791bbf5ed6d3c7a4f1011e441b6223865ac9f7bd018f2807ee
+    maintainers:
+    - email: gameboy1092@gmail.com
+      name: Robert Sheehy
+    - email: simkev2@gmail.com
+      name: Kevin Simons
+    name: kube-janitor
+    sources:
+    - github.com/themagicalkarp/kube-janitor
+    urls:
+    - http://themagicalkarp.github.io/charts/kube-janitor-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
     appVersion: v0.0.2
-    created: 2018-09-04T13:21:12.248400953-05:00
+    created: 2018-09-24T09:38:04.225691918-05:00
     description: A Helm chart for running kube-janitor
     digest: 08d91578a71006ec212be92adee6ed7ffe491360e02ac0d794867f651e695a44
     maintainers:
@@ -17,7 +33,7 @@ entries:
     version: 0.0.2
   - apiVersion: v1
     appVersion: v0.0.1
-    created: 2018-09-04T13:21:12.248072212-05:00
+    created: 2018-09-24T09:38:04.22539813-05:00
     description: A Helm chart for running kube-janitor
     digest: 928287d107651c53ded5195615d6cff971df807ab2a78fdd059b4338d7f4f210
     maintainers:
@@ -29,4 +45,4 @@ entries:
     urls:
     - http://themagicalkarp.github.io/charts/kube-janitor-0.0.1.tgz
     version: 0.0.1
-generated: 2018-09-04T13:21:12.245302063-05:00
+generated: 2018-09-24T09:38:04.224886485-05:00
